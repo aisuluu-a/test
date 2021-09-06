@@ -1,1 +1,104 @@
 Работа с SASS
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project
+$ mkdir working
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project
+$ cd working
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working
+$ git clone https://github.com/aisuluu-a/test
+Cloning into 'test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working
+$ cd test
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working/test (main)
+$ git add .
+warning: LF will be replaced by CRLF in css/main.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/Rectangle1.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/Rectangle2.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/Rectangle3.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/Rectangle74.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/hero.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/image33.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/image35.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in img2/logo.svg.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working/test (main)
+$ git commit -m "add files"
+[main e98ecc4] add files
+ 35 files changed, 1176 insertions(+)
+ create mode 100644 css/main.min.css
+ create mode 100644 css/main.min.css.map
+ create mode 100644 img2/22.png
+ create mode 100644 img2/Line48.png
+ create mode 100644 img2/Rectangle1.svg
+ create mode 100644 img2/Rectangle2.svg
+ create mode 100644 img2/Rectangle3.svg
+ create mode 100644 img2/Rectangle73.png
+ create mode 100644 img2/Rectangle74.svg
+ create mode 100644 img2/background.png
+ create mode 100644 img2/blockquote.png
+ create mode 100644 img2/envelope.png
+ create mode 100644 img2/hero.svg
+ create mode 100644 img2/icon.png
+ create mode 100644 img2/icon1.png
+ create mode 100644 img2/icon2.png
+ create mode 100644 img2/icon3.png
+ create mode 100644 img2/iconmonstr-location.png
+ create mode 100644 img2/iconmonstr-twitter.png
+ create mode 100644 img2/image33.svg
+ create mode 100644 img2/image35.svg
+ create mode 100644 img2/logo.svg
+ create mode 100644 img2/marble.fig
+ create mode 100644 img2/telephone.png
+ create mode 100644 index.html
+ create mode 100644 scss/_banner.scss
+ create mode 100644 scss/_blockquote.scss
+ create mode 100644 scss/_container.scss
+ create mode 100644 scss/_footer.scss
+ create mode 100644 scss/_globals.scss
+ create mode 100644 scss/_header.scss
+ create mode 100644 scss/_services.scss
+ create mode 100644 scss/_vars.scss
+ create mode 100644 scss/_works.scss
+ create mode 100644 scss/main.scss
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working/test (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aisuluu-a/test'
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working/test (main)
+$ git push
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (40/40), done.
+Writing objects: 100% (40/40), 4.09 MiB | 180.00 KiB/s, done.
+Total 40 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/aisuluu-a/test
+   00380b2..e98ecc4  main -> main
+
+User@DESKTOP-DER7GPH MINGW64 /d/my first web/project/working/test (main)
+$
+
