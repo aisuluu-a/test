@@ -1,0 +1,53 @@
+@import "vars";
+
+.services {
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 72px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #DCDCDC;;
+        justify-content: center;
+    }
+
+    &__item {
+        width: 257px;
+        text-align: center;
+        padding-bottom: 40px;
+        
+    }
+
+
+    &__link {
+        text-decoration: none;
+        }
+
+    &__item-titles {
+        font-family: $main-font;
+        
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        color: #4E4E4E;
+        padding-top: 30px;
+        padding-bottom: 17px;
+      }
+
+      &__item-desc {
+        font-family: $third-font;
+        
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+      }
+
+      
+    &__item + &__item {
+        margin-left: 31px;
+      }
+}

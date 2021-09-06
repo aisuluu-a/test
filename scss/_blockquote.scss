@@ -1,0 +1,24 @@
+@import "vars";
+
+.blockquote {
+    
+    padding-top: 90px;
+    text-align: center;
+    background-color:  #EFEFEF;
+    background-image: url(../img2/blockquote.png);
+    background-repeat: no-repeat;
+    background-position: center 67px;
+    &__text {
+        max-width: 875px;
+        padding-top: 36px;
+        margin: auto;
+        font-family: $main-font;
+        
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #A1A1A1;
+        padding-bottom: 91px;
+    }
+}
